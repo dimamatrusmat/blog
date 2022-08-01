@@ -1,5 +1,5 @@
-## Start blog
-
+# Start blog
+```
 git init 
 
 echo venv >> .gitignore
@@ -16,8 +16,9 @@ git push origin main
 pythom -m venv venv
 
 venv\Script\activate
-
-# Start django
+```
+## Start django
+```
 pip install django
 
 django-admin startproject myBlog
@@ -25,3 +26,4 @@ django-admin startproject myBlog
 cd myBlog
 
 python manage.py runserver
+```
