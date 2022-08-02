@@ -51,3 +51,8 @@ Create superuser
 ```
 python manage.py createsuperuser
 ```
+
+## Create app blog
+```
+django-admin startapp blog
+```
